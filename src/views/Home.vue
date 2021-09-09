@@ -1,15 +1,15 @@
 <template>
-  <hello-world />
+  <MessageThread />
 </template>
 
 <script>
-  import HelloWorld from '../components/HelloWorld'
+  import MessageThread from '../components/messageThread.vue'
 
   export default {
     name: 'Home',
 
     components: {
-      HelloWorld,
+      MessageThread,
     },
   }
 </script>
